@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Article</title>
+    <style>
+      .pb-20 {
+        padding-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="POST" enctype="multipart/form-data" action="submit.php">
+      <div class="pb-20">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required />
+      </div>
+      <div class="pb-20">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="pb-20">
+        <label for="about">About Me:</label>
+        <textarea id="about" name="about" rows="3" cols="50"></textarea>
+      </div>
+      <div class="pb-20">
+        <label for="picture">Picture:</label>
+        <input type="file" id="picture" name="picture" />
+      </div>
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
