@@ -1,0 +1,74 @@
+/* Default fonts */
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+/* Heading styling */
+h1 {
+  font-size: 16px;
+  color: #444444;
+  text-align: center;
+}
+
+/* Container styling */
+.container {
+  text-align: center;
+  margin: 5px;
+  font-size: 13px;
+}
+
+/* Offer styling */
+.offer {
+  display: inline-block;
+  width: 400px;
+  margin: 4px;
+  text-align: center;
+  border: 1px solid #cccccc;
+}
+
+/* Offer title styling */
+.offerTitle {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #00b3b3;
+  padding: 15px;
+  margin: 0;
+}
+
+/* Offer contents styling */
+.offerContents {
+  padding: 20px;
+  background-color: #fafafa;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+}
+
+table th {
+  font-size: 12px;
+  font-weight: bold;
+  color: #777777;
+  padding: 10px;
+  margin: 0;
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+table td {
+  font-weight: lighter;
+  color: #444444;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+/* Styling for finalValue class */
+.finalValue {
+  font-weight: bold;
+  color: #2222ff;
+}
